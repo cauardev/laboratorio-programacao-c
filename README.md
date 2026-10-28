@@ -27,16 +27,16 @@
 ## 📁 Estrutura do Repositório
 
 ```
-📦 laboratorio-programacao-c
- ┣ 📜 README.md
- ┣ 📂 aula-14-matrizes
- ┃ ┗ 📜 exercicio_matriz.c
- ┣ 📂 aula-15-matrizes-aplicacoes
- ┃ ┗ 📜 controle_assentos.c
- ┣ 📂 aula-16-strings
- ┃ ┗ 📜 contador_caracteres.c
- ┗ 📂 aula-17-bibliotecas
-   ┗ 📂 projeto-final
+laboratorio-programacao-c/
+├── README.md
+├── aula-14-matrizes/
+│   └── exercicio_matriz.c
+├── aula-15-matrizes-aplicacoes/
+│   └── controle_assentos.c
+├── aula-16-strings/
+│   └── contador_caracteres.c
+└── aula-17-bibliotecas/
+    └── projeto-final/
 ```
 
 ---
