@@ -16,10 +16,10 @@
 
 | | |
 |---|---|
-| **👤 Aluno** | Cauã Robson Candeias Lira Altino |
+| **👤 Aluno** | Cauã Robson Candeias Altino |
 | **🏫 Instituição** | Universidade Vila Velha (UVV) |
 | **💻 Curso** | Ciência da Computação |
-| **👩‍🏫 Professora** | Fabiana |
+| **👩‍🏫 Professora** | Fabiana Bravim |
 | **🔗 GitHub** | [cauardev](https://github.com/cauardev) |
 
 ---
