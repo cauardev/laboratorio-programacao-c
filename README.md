@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.discordapp.net/attachments/802613676082987029/1570141318481715210/LOGO_UVV-removebg-preview.png?ex=6af6038e&is=6af4b20e&hm=4ed21a9b78c027ea842bb6952a21d676c3266a020d58d36db732a043b7a7a227&=&format=webp&quality=lossless" alt="Logo da Universidade Vila Velha (UVV)" width="180">
+<img src="https://media.discordapp.net/attachments/802613676082987029/1570141144027889846/images.png?ex=6af60364&is=6af4b1e4&hm=444d02be7bb3e33a1c9bacf2ed27af1b8ab21ddd9cb031c8ceac02c25049e610&=&format=webp&quality=lossless" alt="Logo da Universidade Vila Velha (UVV)" width="180">
 
 # Laboratório de Programação em C
 
