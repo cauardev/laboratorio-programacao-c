@@ -1,16 +1,12 @@
 <div align="center">
 
-<img src="https://www.uvv.br/wp-content/uploads/2022/09/logo-uvv.png" alt="Logo UVV" height="80"/>
+<img src="https://media.discordapp.net/attachments/802613676082987029/1570141318481715210/LOGO_UVV-removebg-preview.png?ex=6af6038e&is=6af4b20e&hm=4ed21a9b78c027ea842bb6952a21d676c3266a020d58d36db732a043b7a7a227&=&format=webp&quality=lossless" alt="Logo da Universidade Vila Velha (UVV)" width="180">
 
 # Laboratório de Programação em C
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="90"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="Logo da linguagem C" width="90">
 
 ### Atividades e exercícios desenvolvidos durante as aulas de Laboratório de Programação
-
-[![Linguagem](https://img.shields.io/badge/Linguagem-C-00599C?style=for-the-badge&logo=c&logoColor=white)](#)
-[![Universidade](https://img.shields.io/badge/Universidade-UVV-8B1E3F?style=for-the-badge)](#)
-[![Curso](https://img.shields.io/badge/Curso-Ciência%20da%20Computação-222222?style=for-the-badge)](#)
 
 </div>
 
