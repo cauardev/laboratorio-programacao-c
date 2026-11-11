@@ -1,24 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 1) Pergunta sim/n„o: devolve 1 (sim) ou 0 (n„o)
 int perguntaSimNao(char pergunta[]) {
     int resp;
     printf("%s (1-SIM / 2-NAO): ", pergunta);
     scanf("%d", &resp);
-    return resp == 1;
+    return resp == 1; // verifica os bits 1 - verdadeiro, 0 - falso
 }
 
-// 2) Recebe peso e altura, devolve o IMC
+
 float calcularImc(float peso, float altura) {
-    return peso / (altura * altura);
+    return peso / (altura * altura); // calcula o IMC
 }
 
-// 3) Recebe as respostas e mostra a mensagem
-void mostrarFatores(int tabagismo, int diabetes) {
+void mostrarFatores(int tabagismo, int diabetes, int historicoDeDoenca, int sedentarismo, int estresse, int sonoInadequado, int ultraprocessados) {
     if (tabagismo) printf("Fator de risco: tabagismo\n");
     if (diabetes)  printf("Fator de risco: diabetes\n");
-    if (!tabagismo && !diabetes) printf("Sem fatores de risco\n");
+    if (historicoDeDoenca) printf("Fator de risco: historico de doen√ßa\n");
+    if (sedentarismo) printf("Fator de risco: Sedentarismo\n");
+    if (ultraprocessados) printf("Fator de risco: Alimenta√ß√£o rica em ultraprocessados\n");
+    if (estresse) printf("Fator de risco: Estresse cronico elevado\n");
+    if (sonoInadequado) printf("Fator de risco: Sono Inadequado\n");
+    if (!tabagismo && !diabetes && !historicoDeDoenca && !sedentarismo && !ultraprocessados && !estresse && !sonoInadequado) printf("Sem fatores de risco\n"); //verifica os fatores de risco
 }
 
 int main() {
@@ -31,7 +34,7 @@ int main() {
             "\n=============================");
 
     printf ("\nDigite seu nome: ");
-    scanf ("%49s", &nome);
+    scanf ("%49s", nome);
     printf ("Digite sua idade: ");
     scanf ("%d", &idade);
     printf ("Digite seu peso: ");
@@ -39,12 +42,17 @@ int main() {
     printf ("Digite sua altura:");
     scanf ("%f", &altura);
 
-    int tabagismo = perguntaSimNao("Tabagismo?");
-    int diabetes  = perguntaSimNao("Diabetes?");
+    int tabagismo         = perguntaSimNao("Tabagismo?");
+    int diabetes          = perguntaSimNao("Diabetes?");
+    int historicoDeDoenca = perguntaSimNao("Historico de doenca na familia?");
+    int sedentarismo      = perguntaSimNao("Sedentarismo?");
+    int estresse          = perguntaSimNao("Estresse cronico elevado?");
+    int sonoInadequado    = perguntaSimNao("Sono inadequado?");
+    int ultraprocessados  = perguntaSimNao("Alimentacao rica em ultraprocessados?");
 
     float imc = calcularImc(peso, altura);
     printf("IMC: %.2f\n", imc);
 
-    mostrarFatores(tabagismo, diabetes);
+    mostrarFatores(tabagismo, diabetes, historicoDeDoenca, sedentarismo, estresse, sonoInadequado, ultraprocessados); // sistema ainda nao finalizado
     return 0;
 }
