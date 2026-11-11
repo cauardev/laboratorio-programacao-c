@@ -29,6 +29,7 @@
 ```
 laboratorio-programacao-c/
 ├── README.md
+├── risco_cardiovascular.c
 ├── aula-14-matrizes/
 │   ├── atv1.c
 │   ├── atv2.c
