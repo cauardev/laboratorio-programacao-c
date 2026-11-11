@@ -214,14 +214,6 @@ gcc "contador caracteres.c" -o contador
 
 ---
 
-## Objetivo
-
-Este repositório faz parte da minha jornada de aprendizado em **Ciência da Computação**.
-
-A ideia é manter aqui os exercícios e atividades desenvolvidos durante a disciplina, registrando minha evolução no aprendizado da linguagem **C** e dos fundamentos da programação.
-
----
-
 <div align="center">
 
 ### Desenvolvido por
